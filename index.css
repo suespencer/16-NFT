@@ -38,16 +38,29 @@ p {
 }
 
 /* links */
-a.link-btn {
+
+
+/* .btn-dark,
+.btn-mid,
+.btn-light{
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none; 
+    display: inline-block;
+    margin: 5px 0;
+} */
+
+.btn {
   padding: 10px 19px;
   border-radius: 4.6px;
-  font-size: 14px;
   font-weight: 500;
-  cursor: pointer;
-  border: none;
-  margin-top: 20px;
-  text-decoration: none;
+  text-decoration: none; 
+  display: inline-block;
+  margin: 5px 0;
 }
+ 
+
 
 .btn-dark {
   color: whitesmoke;
@@ -64,12 +77,18 @@ a.link-btn {
   background-color: whitesmoke;
 }
 
-.btn-dark:hover,
+/* .btn-dark:hover,
 .btn-mid:hover,
 .btn-light:hover,
 .btn-dark:active,
 .btn-mid:active,
 .btn-light:active {
+  color: #2b283a;
+  background-color: #f3e885;
+
+} */
+
+.btn:hover, .btn:active {
   color: #2b283a;
   background-color: #f3e885;
 }
